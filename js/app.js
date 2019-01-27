@@ -85,8 +85,22 @@ otherAgeClass[1].innerHTML = 68;
  //div with class name of status
  //div with class anem of Motto
 
-var imgMyProfile = document.getElementById('profilePic');
-imgMyProfile.src = "https://vignette.wikia.nocookie.net/yandere-simulator/images/a/a3/Wendy%27s.png/revision/latest?cb=20170802202854";
+var imgOtherClass = document.getElementsByClassName('other');
+var mottoClass = document.getElementsByClassName('motto');
 
+//console.log(imgOtherClass);
+//console.log(firstNameClass);
+//console.log(otherAgeClass);
+//console.log(statusClass);
+//console.log(mottoClass);
+
+
+imgOtherClass[2].src = "https://media.licdn.com/dms/image/C5603AQFT-9Z6Jmr8Mw/profile-displayphoto-shrink_200_200/0?e=1554336000&v=beta&t=2FBQzT7SmBlYB-ZsGF4oThIniX-ucTt5YEBnYZ8TItg";
+firstNameClass[2].innerHTML = "Luke";
+otherAgeClass[2].innerHTML = 'dirty 30';
+statusClass[2].innerHTML = "off da market";
+mottoClass[2].innerHTML = 'git push git paid';
+
+var imgMyProfile = document.getElementById('profilePic');
 
 
